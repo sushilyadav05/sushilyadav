@@ -130,7 +130,7 @@ if($result = mysqli_query($link, $sql)){
 				echo "<tr>";
                 echo "<td>" . $row['id'] . "</td>";
                 echo "<td>" . $row['cin'] . "</td>";
-                echo "<td><a href='".$name."/$name_comp1"."'>" . $row['company_name'] . "</a></td>";
+                echo "<td><a href='".$name."$name_comp1"."'>" . $row['company_name'] . "</a></td>";
                 echo "<td>" . $row['Class'] . "</td>";
 				 echo "<td>" . $row['Status'] . "</td>";
             
