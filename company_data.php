@@ -126,7 +126,7 @@ if($result = mysqli_query($link, $sql)){
         while($row = mysqli_fetch_array($result)){
 	$name_comp = str_replace(" ","-",$row['company_name']);
 	$name_comp1 =  strtolower($name_comp);
-	$name="business";
+	$name="http://www.mycorporateinfo.com/";
 				echo "<tr>";
                 echo "<td>" . $row['id'] . "</td>";
                 echo "<td>" . $row['cin'] . "</td>";
